@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap");
+
 body {
   margin: 0px;
   background-size: cover;
+  font-family: "circular", sans-serif;
 }
 
 header {
@@ -14,6 +17,16 @@ main {
   color: white;
   margin-top: 100px;
   margin-left: 100px;
+}
+
+h3 {
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
 }
 
 select {
@@ -56,4 +69,26 @@ select {
 
 #title-main {
   font-size: 62px;
+  font-weight: 800;
+}
+
+#input {
+  height: 50px;
+  width: 350px;
+  background-color: rgba(29, 29, 29, 0.488);
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+#btn-start {
+  margin-left: 10px;
+  font-size: 22px;
+  padding: 2px 20px;
+  font-weight: 200;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
 }
